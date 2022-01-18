@@ -1,0 +1,154 @@
+
+/****************************** Header ******************************/
+*{
+   box-sizing: border-box;
+}
+.logo img{
+    float: right;
+    width: 300px;
+    height: auto;
+    margin: -95px;
+}
+#LemonIcon{
+    background: transparent;
+}
+.Header_menu-bar{
+    background: #006400 ;
+     position: relative;
+     z-index: 100;
+     text-align: center;
+}
+.Header_menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.Header_menu-bar ul li{
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+}
+.Header_menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .Header_menu-bar ul li:hover{
+    background: #f5d616;
+    border-radius: 30px;
+}
+.Header_menu-bar .fa {
+    margin-left: 8px;
+}
+.submenu-aboutus{
+    display: none;
+}
+.Header_menu-bar ul li:hover .submenu-aboutus{
+    display: block;
+    position: absolute;
+    background: #006400;
+    margin-top: 15px;
+    margin-left: -60px;
+}
+.Header_menu-bar ul li:hover .submenu-aboutus ul{
+    display: block;
+    margin: 10px;
+}
+.Header_menu-bar ul li:hover .submenu-aboutus ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: right;
+}
+.Header_menu-bar ul li:hover .submenu-aboutus ul li a:hover{
+color: #f5d616;
+}
+.submenu-services{
+    display: none;
+}
+.Header_menu-bar ul li:hover .submenu-services{
+    display: block;
+    position: absolute;
+    background: #006400;
+    margin-top: 15px;
+    margin-left: -60px;
+}
+.Header_menu-bar ul li:hover .submenu-services ul{
+    display: block;
+    margin: 10px;
+}
+.Header_menu-bar ul li:hover .submenu-services ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: right;
+}
+.Header_menu-bar ul li:hover .submenu-services ul li a:hover{
+    color: #f5d616;
+}
+.fa fa-angle-left{
+    float :left;
+}
+.language{
+    float: left;
+    margin: -95px;
+}
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+    opacity: .8;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+/**************SearchBox******************/
+.search-box{
+    float: left;
+    transform: translate(20%,90%);
+    background: #2f3640;
+    height: 30px;
+    border-radius: 40px;
+    padding: 10px;
+}
+.search-box > i{
+    right: 500px;
+}
+.search-box:hover > .search-txt{
+    width: 150px;
+    padding: 0 2px;
+
+}
+.search-box:hover > .searc-btn{
+   background: #f5d616;
+}
+.searc-btn{
+    transform: translate(25%,-40%);
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    width: 0px;
+}

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LemonAid-Home</title>
+    <meta charset="UTF-8">
+    <link href="../css/homepage.css" rel="stylesheet">
+    <link href="pages/homepage/static/css/images/backround.jpg" rel="icon"/>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+    <base href="/group16/">
+</head>
+<body>
+<header>
+    <div class="Header_menu-bar" id="Header">
+        <ul>
+            <li><a href="pages/log-in page/static/templates/log-in page.html"><i class="fa fa-users"></i> התחברות </a></li>
+            <li class="active"><a href="pages/donationpage/static/templates/donationpage.html">לתרומות</a></li>
+
+            <div class="search-box">
+                <input class="search-txt" name="" placeholder="Type to search" type="text">
+                <a class="searc-btn" href="#"><i class="fa fa-search"></i></a>
+            </div>
+            <li><a href="#"><i class="fa fa-phone"></i> יצירת קשר </a></li>
+            <li><a href="#"><i class="fas fa-hands-helping"></i>השירותים שלנו</a>
+                <div class="submenu-services">
+                    <ul>
+                        <li><a href="pages/CatalogPage/static/templates/catalogpage.html">שירותים<i
+                                class="fa fa-angle-left"></i></a></li>
+                        <li><a href="#">זכויות<i class="fa fa-angle-left"></i></a></li>
+                        <li><a href="#">ביטוח לאומי<i class="fa fa-angle-left"></i></a></li>
+                        <li><a href="#">טפסים<i class="fa fa-angle-left"></i></a></li>
+                        <li><a href="#">ייעוץ<i class="fa fa-angle-left"></i></a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#"><i class="fa fa-user"></i>אנחנו</i></a>
+                <div class="submenu-aboutus">
+                    <ul>
+                        <li><a href="pages/About-Us/static/templates/About-Us.html">אודותינו<i
+                                class="fa fa-angle-left"></i></a></li>
+                        <li><a href="pages/Our-Team/static/templates/Out-Team.html">הצוות<i
+                                class="fa fa-angle-left"></i></a></li>
+                    </ul>
+                </div>
+            </li>
+            <div class="logo">
+                <li id="LemonIcon"><a
+                        href="pages/homepage/static/templates/homepage.html"><img
+                        src="images/LemonAid-R1-01.png"></a></li>
+            </div>
+        </ul>
+    </div>
+    </div>
+</header>
+
+<section>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+                 style="width:100%">
+            <button class="btn btn1" id="myBtn"
+                    onclick="window.location.href = 'pages/SingUp/static/templates/SingUp.html';">הצטרף אלינו
+            </button>
+            <button class="btn btn2 active"
+                    onclick="window.location.href = 'pages/donationpage/static/templates/donationpage.html';">לתרומה
+            </button>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80"
+                 style="width:100%">
+            <button class="btn btn1"
+                    onclick="window.location.href = 'pages/SingUp/static/templates/SingUp.html';">הצטרף אלינו
+            </button>
+            <button class="btn btn2 active"
+                    onclick="window.location.href = 'pages/donationpage/static/templates/donationpage.html';">לתרומה
+            </button>
+        </div>
+        <div class="mySlides fade">
+            <img src="https://images.unsplash.com/photo-1505769542637-a892c7381a3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                 style="width:100%">
+            <button class="btn btn1"
+                    onclick="window.location.href = 'pages/SingUp/static/templates/SingUp.html';">הצטרף אלינו
+            </button>
+            <button class="btn btn2 active"
+                    onclick="window.location.href = 'pages/donationpage/static/templates/donationpage.html';">לתרומה
+            </button>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <div class="Flip-Container">
+        <div class="Card">
+            <div class="imgFlip">
+                <img alt="1"
+                     src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+            </div>
+            <div class="FlipContent">
+                <h2>ידיים טובות / מאיר גולדברג</h2>
+                <p dir="rtl">לסוד בכף ידו של התינוק, קוראים חיים, וזה זורם קדימה
+                    ידו על פיו כשהוא פורץ בצחוק
+                    האצבעות אומרות שלום לאמא
+                    והנה הוא אוחז במשחקיו
+                    מניח יד על מה שמעניין אותו
+                    ומלטף את מי שטוב אליו
+                    אין מה לדאוג, ולמה שיהיה לו
+                    ימים שלא נותנים להירגע
+                    ובקרוב, הוא יהפוך לילד
+                    הוריו שומרים עליו בדאגה
+                    מול בשורות העוברות בדלת
+                    חיים בכף ידו של הגורל
+                    קווי חיים כאן בכפות ידינו
+                    מושיט ידו כל מי שמסוגל
+                    לתת עזרה, כי זה חוזר אלינו
+                    מיליון פעמונים מצלצלים
+                    כל לב נפתח, כל דלת נפתחת
+                    תנו יד, אל תתנו לקחת חיים
+                    תנו לחיים לנצח הפעם
+                    תפילה אחת בשביל כולם
+                    תנו לחיים לנצח הפעם
+                    כולנו יד אחת לטובתכם
+                    חיים איתנו פחד וחשש
+                    וגם אותם עוד ננצח
+                    כל ילד שנולד כאן מחדש
+                    סיבה להיות גם קצת שמח
+                    ידיים נפתחות כדי לחבק
+                    נחיה ונתגבר ונתחזק
+                    אולי הרע מאחורינו
+                    מיליון פעמונים מצלצלים
+                    כל לב נפתח, כל דלת נפתחת
+                    תנו יד, אל תתנו לקחת חיים</p>
+            </div>
+        </div>
+
+        <div class="Card">
+            <div class="imgFlip">
+                <img alt="2"
+                     src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+            </div>
+            <div class="FlipContent">
+                <h2 dir="rtl">"יחד ננצח" / הרופאה שלנו בטור אישי</h2>
+                <p dir="rtl">מלל כלשהוא מטור של רופאה. מלל מלל מלל מלל מלל מלל מלל מלל
+                    מלל מלל מלל מלל מלל מלל מלל מלל
+                    מלל מלל מלל מלל מלל מלל מלל מללמלל מלל מלל מלל מלל מלל מלל מללמלל מלל מלל מלל מלל מלל מלל מלל
+                    מלל מלל מלל מלל מלל מלל מלל מללמלל מלל מלל מלל מלל מלל מלל מלל
+                    מלל מלל מלל מלל מלל מלל מלל מללמלל מלל מלל מלל מלל מלל מלל מללמלל מלל מלל מלל מלל מלל מלל מללמלל מלל
+                    מלל מלל מלל מלל מלל מלל</p>
+            </div>
+        </div>
+
+        <div class="Card">
+            <div class="imgFlip">
+                <img alt="3"
+                     src="https://images.unsplash.com/photo-1552035509-b247fe8e5078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+            </div>
+            <div class="FlipContent">
+                <h2>מירוץ הלילה של תל אבב</h2>
+                <p dir="rtl">באוקטובר 2090 יתקיים מרוץ הלילה של תל אבב. עמותת Lemon-Aid מזמינה אתכם לקחת חלק ולרוץ למען
+                    מטרה נעלה - למען משפחות העמותה, המתמודדים יחד עם בן משפחתם החולה במחלת הסרטן.
+                    ניתן להירשם דרכינו למרוץ ללא עלות – בתמורה להתחייבות לגייס כספים לפעילות העמותה.
+                    זוהי השנה הראשונה שאנו עורכים אירוע התרמה זה, שמטרתו היא גיוס סכומי כסף להמשך קיומה של העמותה, וכן
+                    גיוס משאבים המאפשרים לנו להרחיב את הפעילות לכלל המשפחות שזקוקות לנו.
+                    אם אתם מעוניינים להשתתף, מוזמנים להירשם דרך העמותה, כאשר בתמורה הם מתחייבים לגייס תרומות בסך של 250
+                    ₪.</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="serviceboxes">
+        <div class="content-container">
+            <div class="box">
+                <div class="icon">03</div>
+                <div class="content">
+                    <h3>מה הזכויות שלי</h3>
+                    <p dir="rtl">השירות שלנו מציע השירות שלנו מציע השירות שלנו מציע השירות שלנו מציע
+                        השירות שלנו מציע השירות שלנו מציע השירות שלנו מציע השירות שלנו מציע
+                        השירות שלנו מציע השירות שלנו מציע השירות שלנו מציע השירות שלנו מציע
+                    </p>
+                    <a class="readMoreB" href="#">מידע נוסף</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon">02</div>
+                <div class="content">
+                    <h3>מתמודדים עם זה יחד</h3>
+                    <p dir="rtl">עמותת הינה עמותה ללא מטרות רווח, אשר שמה לעצמה למטרה להעניק סיוע לבני משפחה מטפלים
+                        באמצעות תמיכה
+                        הוליסטית בכל תחומי החיים הן בפן הטכני והן בפן הרגשי. העמותה מתבססת על חמישה צירי פעילות מרכזיים
+                        שיפורטו בהמשך ומהווים את שיטת הפעילות של למון אייד.
+                        חזון העמותה הוא לייצר קהילה חזקה ויציבה המהווה לחבריה מפלט, משענת ומענה בימי חוסר וודאות וסערה.
+                    </p>
+                    <a class="readMoreB" href="#">מידע נוסף</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon">01</div>
+                <div class="content">
+                    <h3>הסיפור שלנו</h3>
+                    <p dir="rtl">חבלי הלידה של העמותה הבשילו בעקבות מסע אישי של מייסדות העמותה ועל כן, כל אחת ממטרותיה
+                        הינה תוצר
+                        של הכרות מעמיקה, אישית ואובייקטיבית של מי שהתמודדו עם טיפול בבן משפחה חולה.
+                        רק מי שנכח בסיטואציה כזו יודע עד כמה מורכבת, קשה, בודדה ושואבת היא עשויה להיות. אנו תקווה אמיתית
+                        שעמותת LEMONAID תרכך את הקשיים.
+                    </p>
+                    <a class="readMoreB" href="#">מידע נוסף</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</section>
+
+<footer>
+    <div class="up-section">
+        <div class="footerlogo">
+            <a class="f-logo" href="pages/homepage/static/templates/homepage.html" id="LemonIconFooter"><img
+                    src="pages/footer/static/css/images/LemonAid-R1-transparent.png"></a>
+        </div>
+
+        <ul>
+            <h1>יצירת קשר</h1>
+            <li><a href="#">+9725086463367</a></li>
+            <li><a href="#">Masho #Street 5</a></li>
+            <li><a href="#">Israel</a></li>
+            <li><a href="#">Blaa</a></li>
+        </ul>
+
+        <ul>
+            <h1> השירותים שלנו </h1>
+            <li><a href="pages/CatalogPage/static/templates/catalogpage.html">שירותים</a></li>
+            <li><a href="#">זכויות</a></li>
+            <li><a href="#">ביטוח לאומי</a></li>
+            <li><a href="#">טפסים</a></li>
+            <li><a href="#">ייעוץ</a></li>
+        </ul>
+
+        <ul>
+            <h1> אנחנו </h1>
+            <li><a href="pages/About-Us/static/templates/About-Us.html">אודותינו</a></li>
+            <li><a href="pages/Our-Team/static/templates/Out-Team.html">הצוות</a></li>
+        </ul>
+    </div>
+
+    <div class="dwn-section">
+        <ul>
+            <h1>תרומות</h1>
+            <li><a href="pages/donationpage/static/templates/donationpage.html">תרמו לנו ועזרו לנו לצמוח</a></li>
+        </ul>
+
+        <ul>
+            <h1>דרושים</h1>
+            <li><a href="#">למשרות</a></li>
+        </ul>
+
+        <div class="social">
+            <h1>חפשו אותנו ברשתות</h1>
+            <div class="social-cons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="search">
+            <h1>Email</h1>
+            <label>
+                <input placeholder="Enter Your Email" type="email">
+            </label>
+        </div>
+    </div>
+    <p class="copyright">Design by group 16, 2020</p>
+</footer>
+
+<script src="pages/homepage/static/ js/homepage.js"></script>
+</body>
+</html>

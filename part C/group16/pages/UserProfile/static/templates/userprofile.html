@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>userprofile</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" id="bootstrap-css" rel="stylesheet">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="../css/userprofile.css" rel="stylesheet">
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+
+    <link href="pages/homepage/static/css/images/backround.jpg" rel="icon"/>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+    <base href="/group16/">
+</head>
+<body>
+
+<header>
+    <div class="Header_menu-bar" id="Header">
+        <ul>
+            <li><a href="pages/log-in page/static/templates/log-in page.html"><i class="fa fa-users"></i> התחברות </a>
+            </li>
+            <li class="active"><a href="pages/donationpage/static/templates/donationpage.html">לתרומות</a></li>
+
+            <div class="search-box">
+                <input class="search-txt" name="" placeholder="Type to search" type="text">
+                <a class="searc-btn" href="#"><i class="fa fa-search"></i></a>
+            </div>
+            <li><a href="#"><i class="fa fa-phone"></i> יצירת קשר </a></li>
+            <li><a href="#"><i class="fas fa-hands-helping"></i>השירותים שלנו</a>
+                <div class="submenu-services">
+                    <ul>
+                        <li><a href="pages/CatalogPage/static/templates/catalogpage.html">שירותים<i
+                                class="fa fa-angle-left"></i></a></li>
+                        <li><a href="#">זכויות<i class="fa fa-angle-left"></i></a></li>
+                        <li><a href="#">ביטוח לאומי<i class="fa fa-angle-left"></i></a></li>
+                        <li><a href="#">טפסים<i class="fa fa-angle-left"></i></a></li>
+                        <li><a href="#">ייעוץ<i class="fa fa-angle-left"></i></a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#"><i class="fa fa-user"></i>אנחנו</i></a>
+                <div class="submenu-aboutus">
+                    <ul>
+                        <li><a href="pages/About-Us/static/templates/About-Us.html">אודותינו<i
+                                class="fa fa-angle-left"></i></a></li>
+                        <li><a href="pages/Our-Team/static/templates/Out-Team.html">הצוות<i
+                                class="fa fa-angle-left"></i></a></li>
+                    </ul>
+                </div>
+            </li>
+            <div class="logo">
+                <li id="LemonIcon"><a
+                        href="pages/homepage/static/templates/homepage.html"><img
+                        src="images/LemonAid-R1-01.png"></a></li>
+            </div>
+        </ul>
+    </div>
+    </div>
+</header>
+
+<div class="container emp-profile" dir="rtl">
+    <form method="post">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="profile-img">
+                    <img alt=""
+                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog"/>
+                    <div class="file btn btn-lg btn-primary">
+                        Change Photo
+                        <input name="file" type="file"/>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="profile-head">
+                    <h4>
+                        דור אלדד
+                    </h4>
+                    <h5>
+                        סטודנט להנדסה תעשייה וניהול, 25
+                    </h5>
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <span aria-controls="home" aria-selected="true" class="nav-link active" data-toggle="tab"
+                                  id="home-tab" role="tab">פרטים אישיים</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div dir="rtl">
+            <h1 class="my_order" dir="rtl">
+                ההזמנות שלי:
+            </h1>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+                <div class="box-part text-center">
+
+
+                    <div class="text1">
+                        <h4>טיפול פסיכולוגי</h4>
+                        <span>סדרה של מספר מפגשים עם פסיכולוג מומחה בתחום הטיפול ההוליסטי אשר יעזור להתמודד עם הסיטואציה .</span>
+                        <p>נקבע בתאריך: 24.06.2020</p>
+                        <p>שעה: 14:30</p>
+                    </div>
+                    <div class="text1">
+                        <h4>טיסה בכדור פורח</h4>
+                        <span>יום חוויתי הכולל טיסה יוצאת דופן בכדור פורח בשמי הארץ וצפייה בנוף הגליל העליון המרהיב הנשקף מבעד לעננים.</span>
+                        <p>נקבע בתאריך: 28.09.2020</p>
+                        <p>שעה: 05:30</p>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div aria-labelledby="home-tab" class="tab-pane fade show active" dir="rtl" id="home" role="tabpanel">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label dir="rtl">שם משתמש:</label>
+                        </div>
+                        <div class="col-md-6">
+                            <p dir="rtl">דוראלד123</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label dir="rtl">שם:</label>
+                        </div>
+                        <div class="col-md-6">
+                            <p dir="rtl">דור אלדר</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label dir="rtl">מייל:</label>
+                        </div>
+                        <div class="col-md-6">
+                            <p>doreldad12@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label dir="rtl">טלפון:</label>
+                        </div>
+                        <div class="col-md-6">
+                            <p dir="rtl">054-5511538</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label dir="rtl">מקצוע:</label>
+                        </div>
+                        <div class="col-md-6">
+                            <p dir="rtl">סטודנט</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <div class="catalog_head">
+        <h3>אירועים שהתעניינת בהם לאחרונה:</h3>
+    </div>
+    <section class="catalog-section">
+
+        <div class="card">
+            <img alt="doctor"
+                 sizes="50%"
+                 src="https://images1.ynet.co.il//PicServer4/2015/12/01/6668345/666833901001599640360no.jpg">
+            <div class="price">180 ₪</div>
+            <h1>פסיכולוג</h1>
+            <p>סדרה של מספר מפגשים עם פסיכולוג מומחה בתחום הטיפול ההוליסטי אשר יעזור להתמודד עם הסיטואציה ולהבין כיצד
+                לפעול באופן הנכון ביותר</p>
+            <div class="button-size">
+                <button>להזמנה</button>
+            </div>
+        </div>
+        <div class="card">
+            <img alt="Hot Air Balloon" sizes="50%"
+                 src="https://s1.kikar.co.il/th/data/auto/nadm/tq/jxqrihvv__w715h440q90.jpg">
+            <div class="price">180 ₪</div>
+            <h1>טיסה בכדור פורח</h1>
+            <p>יום חוויתי הכולל טיסה יוצאת דופן בכדור פורח בשמי הארץ וצפייה בנוף הגליל העליון המרהיב הנשקף מבעד
+                לעננים</p>
+            <div class="button-size">
+                <button>להזמנה</button>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <div class="up-section">
+        <div class="footerlogo">
+            <a class="f-logo" href="pages/homepage/static/templates/homepage.html" id="LemonIconFooter"><img
+                    src="pages/footer/static/css/images/LemonAid-R1-transparent.png"></a>
+        </div>
+
+        <ul>
+            <h1>יצירת קשר</h1>
+            <li><a href="#">+9725086463367</a></li>
+            <li><a href="#">Masho #Street 5</a></li>
+            <li><a href="#">Israel</a></li>
+            <li><a href="#">Blaa</a></li>
+        </ul>
+
+        <ul>
+            <h1>השירותים שלנו</h1>
+            <li><a href="#">הטבות</a></li>
+            <li><a href="#">זכויות</a></li>
+            <li><a href="#">ביטוח לאומי</a></li>
+            <li><a href="#">טפסים</a></li>
+            <li><a href="#">ייעוץ</a></li>
+        </ul>
+
+        <ul>
+            <h1>אנחנו</h1>
+            <li><a href="pages/About-Us/static/templates/About-Us.html">אודותינו</a></li>
+            <li><a href="pages/Our-Team/static/templates/Out-Team.html">הצוות</a></li>
+        </ul>
+    </div>
+
+    <div class="dwn-section">
+        <ul>
+            <h1>תרומות</h1>
+            <li><a href="#">תרמו לנו ועזרו לנו לצמוח</a></li>
+        </ul>
+
+        <ul>
+            <h1>דרושים</h1>
+            <li><a href="#">למשרות</a></li>
+        </ul>
+
+        <div class="social">
+            <h1>חפשו אותנו ברשתות</h1>
+            <div class="social-cons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="search">
+            <h1>Email</h1>
+            <label>
+                <input placeholder="Enter Your Email" type="email">
+            </label>
+        </div>
+    </div>
+    <p class="copyright">Design by group 16, 2020</p>
+</footer>
+
+
+</body>
+</html>

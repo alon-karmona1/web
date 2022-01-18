@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sing-Up</title>
+    <link href="../css/SingUp.css" rel="stylesheet">
+    <link href="../css/homepage.css" rel="stylesheet">
+    <link href="pages/homepage/static/css/images/backround.jpg" rel="icon"/>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+    <base href="/group16/">
+</head>
+<body>
+
+<header>
+    <div class="Header_menu-bar" id="Header">
+        <ul>
+            <li><a href="pages/log-in page/static/templates/log-in page.html"><i class="fa fa-users"></i> התחברות </a>
+            </li>
+            <li class="active"><a href="pages/donationpage/static/templates/donationpage.html">לתרומות</a></li>
+
+            <div class="search-box">
+                <input class="search-txt" name="" placeholder="Type to search" type="text">
+                <a class="searc-btn" href="#"><i class="fa fa-search"></i></a>
+            </div>
+            <li><a href="#"><i class="fa fa-phone"></i> יצירת קשר </a></li>
+            <li><a href="#"><i class="fas fa-hands-helping"></i>השירותים שלנו</a>
+                <div class="submenu-services">
+                    <ul>
+                        <li><a href="pages/CatalogPage/static/templates/catalogpage.html">שירותים<i
+                                class="fa fa-angle-left"></i></a></li>
+                        <li><a href="#">זכויות<i class="fa fa-angle-left"></i></a></li>
+                        <li><a href="#">ביטוח לאומי<i class="fa fa-angle-left"></i></a></li>
+                        <li><a href="#">טפסים<i class="fa fa-angle-left"></i></a></li>
+                        <li><a href="#">ייעוץ<i class="fa fa-angle-left"></i></a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#"><i class="fa fa-user"></i>אנחנו</i></a>
+                <div class="submenu-aboutus">
+                    <ul>
+                        <li><a href="pages/About-Us/static/templates/About-Us.html">אודותינו<i
+                                class="fa fa-angle-left"></i></a></li>
+                        <li><a href="pages/Our-Team/static/templates/Out-Team.html">הצוות<i
+                                class="fa fa-angle-left"></i></a></li>
+                    </ul>
+                </div>
+            </li>
+            <div class="logo">
+                <li id="LemonIcon"><a
+                        href="pages/homepage/static/templates/homepage.html"><img
+                        src="images/LemonAid-R1-01.png"></a></li>
+            </div>
+        </ul>
+    </div>
+    </div>
+</header>
+<form action="action_page.php" dir="rtl" style="border:1px solid #ccc">
+    <div class="container">
+        <h1>הרשמה</h1>
+        <p>בבקשה מלא את הפרטים הבאים כדי ליצור משתמש</p>
+        <hr>
+
+        <label for="email"><b>מייל</b></label>
+        <input class="SignUp" name="email" placeholder="הכנס מייל" required type="text">
+
+        <label for="psw"><b>סיסמה</b></label>
+        <input class="SignUp" name="psw" placeholder="סיסמה" required type="password">
+
+        <label for="psw-repeat"><b>חזור על הסיסמה</b></label>
+        <input class="SignUp" name="psw-repeat" placeholder="חזור על הסיסמה" required type="password">
+
+        <label>
+            <input checked="checked" name="remember" style="margin-bottom:15px" type="checkbox"> זכור אותי
+        </label>
+
+
+        <div class="clearfix">
+            <button class="cancelbtn" type="button">ביטול</button>
+            <button class="signupbtn" type="submit">הרשמה</button>
+        </div>
+    </div>
+</form>
+<footer>
+    <div class="up-section">
+        <div class="footerlogo">
+            <a class="f-logo" href="pages/homepage/static/templates/homepage.html" id="LemonIconFooter"><img
+                    src="pages/footer/static/css/images/LemonAid-R1-transparent.png"></a>
+        </div>
+
+        <ul>
+            <h1>יצירת קשר</h1>
+            <li><a href="#">+9725086463367</a></li>
+            <li><a href="#">Masho #Street 5</a></li>
+            <li><a href="#">Israel</a></li>
+            <li><a href="#">Blaa</a></li>
+        </ul>
+
+        <ul>
+            <h1> השירותים שלנו </h1>
+            <li><a href="pages/CatalogPage/static/templates/catalogpage.html">שירותים</a></li>
+            <li><a href="#">זכויות</a></li>
+            <li><a href="#">ביטוח לאומי</a></li>
+            <li><a href="#">טפסים</a></li>
+            <li><a href="#">ייעוץ</a></li>
+        </ul>
+
+        <ul>
+            <h1> אנחנו </h1>
+            <li><a href="pages/About-Us/static/templates/About-Us.html">אודותינו</a></li>
+            <li><a href="pages/Our-Team/static/templates/Out-Team.html">הצוות</a></li>
+        </ul>
+    </div>
+
+    <div class="dwn-section">
+        <ul>
+            <h1>תרומות</h1>
+            <li><a href="pages/donationpage/static/templates/donationpage.html">תרמו לנו ועזרו לנו לצמוח</a></li>
+        </ul>
+
+        <ul>
+            <h1>דרושים</h1>
+            <li><a href="#">למשרות</a></li>
+        </ul>
+
+        <div class="social">
+            <h1>חפשו אותנו ברשתות</h1>
+            <div class="social-cons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="search">
+            <h1>Email</h1>
+            <label>
+                <input placeholder="Enter Your Email" type="email">
+            </label>
+        </div>
+    </div>
+    <p class="copyright">Design by group 16, 2020</p>
+</footer>
+
+</body>
+</html>

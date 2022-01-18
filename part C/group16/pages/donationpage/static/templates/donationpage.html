@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LemonAid-Product</title>
+    <meta charset="UTF-8">
+    <link href="../css/donationpage.css" rel="stylesheet">
+    <link href="../css/donationpage.js" rel="JavaScript File">
+    <link href="pages/homepage/static/css/images/backround.jpg" rel="icon"/>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+    <base href="/group16/">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,700italic,400italic' rel='stylesheet'
+          type='text/css'>
+</head>
+<body>
+<header>
+    <div class="Header_menu-bar" id="Header">
+        <ul>
+            <li><a href="pages/log-in page/static/templates/log-in page.html"><i class="fa fa-users"></i> התחברות </a>
+            </li>
+            <li class="active"><a href="pages/donationpage/static/templates/donationpage.html">לתרומות</a></li>
+
+            <div class="search-box">
+                <input class="search-txt" name="" placeholder="Type to search" type="text">
+                <a class="searc-btn" href="#"><i class="fa fa-search"></i></a>
+            </div>
+            <li><a href="#"><i class="fa fa-phone"></i> יצירת קשר </a></li>
+            <li><a href="#"><i class="fas fa-hands-helping"></i>השירותים שלנו</a>
+                <div class="submenu-services">
+                    <ul>
+                        <li><a href="pages/CatalogPage/static/templates/catalogpage.html">שירותים<i
+                                class="fa fa-angle-left"></i></a></li>
+                        <li><a href="#">זכויות<i class="fa fa-angle-left"></i></a></li>
+                        <li><a href="#">ביטוח לאומי<i class="fa fa-angle-left"></i></a></li>
+                        <li><a href="#">טפסים<i class="fa fa-angle-left"></i></a></li>
+                        <li><a href="#">ייעוץ<i class="fa fa-angle-left"></i></a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#"><i class="fa fa-user"></i>אנחנו</i></a>
+                <div class="submenu-aboutus">
+                    <ul>
+                        <li><a href="pages/About-Us/static/templates/About-Us.html">אודותינו<i
+                                class="fa fa-angle-left"></i></a></li>
+                        <li><a href="pages/Our-Team/static/templates/Out-Team.html">הצוות<i
+                                class="fa fa-angle-left"></i></a></li>
+                    </ul>
+                </div>
+            </li>
+            <div class="logo">
+                <li id="LemonIcon"><a
+                        href="pages/homepage/static/templates/homepage.html"><img
+                        src="images/LemonAid-R1-01.png"></a></li>
+            </div>
+        </ul>
+    </div>
+    </div>
+</header>
+
+<div class="donation-container">
+
+    <div class="donation-box">
+        <div class="title">תרומה לעמותה</div>
+
+        <div class="fields">
+            <input id="firstName" placeholder="שם פרטי" type="text"> </input>
+            <input id="lastName" placeholder="שם משפחה" type="text"> </input>
+            <input id="email" placeholder="Email" type="text"> </input>
+        </div>
+
+        <div class="amount">
+            <div class="button">30 ₪</div>
+            <div class="button">50 ₪</div>
+            <div class="button">100 ₪</div>
+            <div class="button"> ₪<input class="set-amount" placeholder=" סכום אחר " type="text"> </input></div>
+        </div>
+
+        <div class="switch">
+            <input checked="" class="switch-input" id="one-time" name="view" type="radio" value="One-Time">
+            <label class="switch-label switch-label-off" for="one-time">חד פעמי</label>
+            <input class="switch-input" id="monthly" name="view" type="radio" value="Monthly">
+            <label class="switch-label switch-label-on" for="monthly">חודשי</label>
+            <span class="switch-selection"></span>
+        </div>
+
+        <div class="checkboxes">
+            <input class="checkbox" id="receipt" type="checkbox"/>
+            <label for="receipt">שלח לי קבלה למייל</label>
+            <br/>
+            <input class="checkbox" id="anon" type="checkbox"/>
+            <label for="anon">מתן בסתר (תרומה ללא מזהה)</label>
+            <br/>
+            <input class="checkbox" id="list" type="checkbox"/>
+            <label for="list">הוסף אותי לתפוצת המיילים</label>
+        </div>
+
+        <div class="confirm">
+
+        </div>
+
+        <div class="donate-button"><i class="fa fa-credit-card"></i> תרום עכשיו</div>
+    </div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://raw.githubusercontent.com/jerryluk/jquery.autogrow/master/jquery.autogrow-min.js"></script>
+
+
+<!-- Container element -->
+<div class="parallax"></div>
+
+
+<footer>
+    <div class="up-section">
+        <div class="footerlogo">
+            <a class="f-logo" href="pages/homepage/static/templates/homepage.html" id="LemonIconFooter"><img
+                    src="pages/footer/static/css/images/LemonAid-R1-transparent.png"></a>
+        </div>
+
+        <ul>
+            <h1>יצירת קשר</h1>
+            <li><a href="#">+9725086463367</a></li>
+            <li><a href="#">Masho #Street 5</a></li>
+            <li><a href="#">Israel</a></li>
+            <li><a href="#">Blaa</a></li>
+        </ul>
+
+        <ul>
+            <h1>השירותים שלנו</h1>
+            <li><a href="#">הטבות</a></li>
+            <li><a href="#">זכויות</a></li>
+            <li><a href="#">ביטוח לאומי</a></li>
+            <li><a href="#">טפסים</a></li>
+            <li><a href="#">ייעוץ</a></li>
+        </ul>
+
+        <ul>
+            <h1>אנחנו</h1>
+            <li><a href="pages/About-Us/static/templates/About-Us.html">אודותינו</a></li>
+            <li><a href="pages/Our-Team/static/templates/Out-Team.html">הצוות</a></li>
+        </ul>
+    </div>
+
+    <div class="dwn-section">
+        <ul>
+            <h1>תרומות</h1>
+            <li><a href="pages/donationpage/static/templates/donationpage.html">תרמו לנו ועזרו לנו לצמוח</a></li>
+        </ul>
+
+        <ul>
+            <h1>דרושים</h1>
+            <li><a href="#">למשרות</a></li>
+        </ul>
+
+        <div class="social">
+            <h1>חפשו אותנו ברשתות</h1>
+            <div class="social-cons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="search">
+            <h1>Email</h1>
+            <label>
+                <input placeholder="Enter Your Email" type="email">
+            </label>
+        </div>
+    </div>
+    <p class="copyright">Design by group 16, 2020</p>
+</footer>
+
+
+</body>
+</html>

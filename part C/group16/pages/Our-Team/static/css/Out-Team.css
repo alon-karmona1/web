@@ -1,0 +1,60 @@
+@import "/group16/pages/general.css";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Calibri;
+}
+
+.Worker-card {
+    box-sizing: border-box;
+    overflow: hidden;
+    max-width: 2500px;
+    margin: 20px;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    position: center;
+    align-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.workerbox {
+    position: relative;
+    left: 20px;
+    width: 380px;
+    height: 415px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Worker-card .title {
+    color: grey;
+    font-size: 18px;
+}
+
+.Worker-card button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #2bab0d;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    height: 7.6vh;
+}
+
+.Worker-card a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #575a70;
+}
+
+.Worker-card button:hover, a:hover {
+    opacity: 0.7;
+}

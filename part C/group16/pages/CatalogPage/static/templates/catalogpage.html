@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LemonAid-Catalog</title>
+    <meta charset="UTF-8">
+    <link href="../css/CatalogPage.css" rel="stylesheet">
+    <link href="pages/homepage/static/css/images/backround.jpg" rel="icon"/>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+    <base href="/group16/">
+</head>
+<body>
+<header>
+    <div class="Header_menu-bar" id="Header">
+        <ul>
+            <li><a href="pages/log-in page/static/templates/log-in page.html"><i class="fa fa-users"></i> התחברות </a>
+            </li>
+            <li class="active"><a href="pages/donationpage/static/templates/donationpage.html">לתרומות</a></li>
+
+            <div class="search-box">
+                <input class="search-txt" name="" placeholder="Type to search" type="text">
+                <a class="searc-btn" href="#"><i class="fa fa-search"></i></a>
+            </div>
+            <li><a href="#"><i class="fa fa-phone"></i> יצירת קשר </a></li>
+            <li><a href="#"><i class="fas fa-hands-helping"></i>השירותים שלנו</a>
+                <div class="submenu-services">
+                    <ul>
+                        <li><a href="pages/CatalogPage/static/templates/catalogpage.html">שירותים<i
+                                class="fa fa-angle-left"></i></a></li>
+                        <li><a href="#">זכויות<i class="fa fa-angle-left"></i></a></li>
+                        <li><a href="#">ביטוח לאומי<i class="fa fa-angle-left"></i></a></li>
+                        <li><a href="#">טפסים<i class="fa fa-angle-left"></i></a></li>
+                        <li><a href="#">ייעוץ<i class="fa fa-angle-left"></i></a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#"><i class="fa fa-user"></i>אנחנו</i></a>
+                <div class="submenu-aboutus">
+                    <ul>
+                        <li><a href="pages/About-Us/static/templates/About-Us.html">אודותינו<i
+                                class="fa fa-angle-left"></i></a></li>
+                        <li><a href="pages/Our-Team/static/templates/Out-Team.html">הצוות<i
+                                class="fa fa-angle-left"></i></a></li>
+                    </ul>
+                </div>
+            </li>
+            <div class="logo">
+                <li id="LemonIcon"><a
+                        href="pages/homepage/static/templates/homepage.html"><img
+                        src="images/LemonAid-R1-01.png"></a></li>
+            </div>
+        </ul>
+    </div>
+    </div>
+</header>
+
+<section>
+    <div class="search-block">
+        <h1>
+            <mark>דף שירותים</mark>
+        </h1>
+        <p>
+            <mark> ברוכים הבאים לקטלוג השירותים שלנו. בדף זה אנו מציעים מגוון שירותים אשר יוכלו לקחת אותכם למקומות
+                מהנים, מרגיעים, מרגשים ועוד!
+            </mark>
+        </p>
+        <p>
+            <mark> כל השירותים המוצעים מוצעים בהנחה משמעותית לחברי עמותת Lemodade ומסופקים על ידי אנשי מקצוע מנוסים
+                ואדיבים.
+            </mark>
+        </p>
+        <p>
+            <mark>בטוחים שתמצאו כאן את החוויה הבאה שלכם :)</mark>
+        </p>
+        <input dir="rtl" name="search2" placeholder="חפש שם מוצר.." type="text">
+    </div>
+</section>
+
+<section class="catalog-section">
+    <div class="card">
+        <img alt="doctor" sizes="100%"
+             src="https://images1.ynet.co.il//PicServer4/2015/12/01/6668345/666833901001599640360no.jpg">
+        <div class="price">150 ₪</div>
+        <h1>פסיכולוג</h1>
+        <p>סדרה של מספר מפגשים עם פסיכולוג מומחה בתחום הטיפול ההוליסטי אשר יעזור להתמודד עם הסיטואציה ולהבין כיצד לפעול
+            באופן הנכון ביותר.</p>
+        <div class="button-size">
+            <button onclick="window.location.href = '../../../productpage/templates/productpage.html';">להזמנה
+            </button>
+        </div>
+    </div>
+    <div class="card">
+        <img alt="Hot Air Balloon" sizes="100%"
+             src="https://s1.kikar.co.il/th/data/auto/nadm/tq/jxqrihvv__w715h440q90.jpg">
+        <div class="price">300 ₪</div>
+        <h1>טיסה בכדור פורח</h1>
+        <p>יום חוויתי הכולל טיסה יוצאת דופן בכדור פורח בשמי הארץ וצפייה בנוף הגליל העליון המרהיב הנשקף מבעד לעננים.</p>
+        <div class="button-size">
+            <button onclick="window.location.href = 'pages/producttwo/static/templates/productpage2.html';">להזמנה
+            </button>
+        </div>
+    </div>
+    <div class="card">
+        <img alt="tutor" sizes="100%"
+             src="https://theeducationinsider.org/wp-content/uploads/2017/06/tutoring-in-manhattan.jpg">
+        <div class="price">80 ₪</div>
+        <h1>מורה פרטי במתמטיקה</h1>
+        <p>מורה פרטי מנוסה במתמטיקה לכיתות א' - יב' אשר יעזור בפתררון שיעורי הבית, הכנה למבחנים, והבנת החומר בצורה קלה
+            יותר.</p>
+        <div class="button-size">
+            <button>להזמנה</button>
+        </div>
+    </div>
+</section>
+<section class="catalog-section">
+    <div class="card">
+        <img alt="massage"
+             sizes="100%" src="https://www.clalit.co.il/he/new_article_images/lifestyle/alternative%20medicine/shutterstock_226029622/medium.jpg">
+        <div class="price">120 ₪</div>
+        <h1>מסאז שוודי להורדת מתחים</h1>
+        <p>מסאז עמוק בסגנון שוודי המעניק לגוף ולנפש שחרור והרפייה ותורם רבות להורדת מתחים ושחרור לחצים בימים עמוסים
+            מנטלית ופיזית.</p>
+        <div class="button-size">
+            <button onclick="window.location.href = 'pages/producthree/static/templates/productpage3.html';">להזמנה
+            </button>
+        </div>
+    </div>
+    <div class="card">
+        <img alt="dinner"
+             sizes="100%" src="https://www.max.co.il/he-il/Benefits/BenefitsPlus/Breakfasts/PublishingImages/0-B/BenniHadayag/BenniHadayag_big.min.png">
+        <div class="price">100 ₪</div>
+        <h1>ארוחה רומנטית בשקיעה</h1>
+        <p>ארוחת ערב זוגית רומנטית וחוויתית במרחק נגיעה מהגלים הכוללת מנה ראשונה, עיקרית, קינוח, ושתייה לכל סועד. תקף
+            במספר מסעדות. </p>
+        <div class="button-size">
+            <button>להזמנה</button>
+        </div>
+    </div>
+    <div class="card">
+        <img alt="lawyer" sizes="100%"
+             src="https://www.moneycrashers.com/wp-content/uploads/2019/03/find-good-lawyer-1068x713.jpg">
+        <div class="price">150 ₪</div>
+        <h1>עורך דין מומחה</h1>
+        <p>עורך דין מומחה בענייני הטבות מס מהמדינה למשפחות שהוצאתן הרפואית מקשה על המצב הכלכלי.</p>
+        <div class="button-size">
+            <button>להזמנה</button>
+        </div>
+    </div>
+</section>
+<section class="catalog-section">
+    <div class="card">
+        <img alt="movie"
+             sizes="100%" src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+        <div class="price">30 ₪</div>
+        <h1> גיפט קארד למגוון בתי קולנוע</h1>
+        <p>כרטיסים בהנחה למגוון בתי קולנוע בארץ. שלל סרטים חדשים מכל הסוגים לבחירתכם, חוויה מהנה לכל המשפחה!</p>
+        <div class="button-size">
+            <button>להזמנה</button>
+        </div>
+    </div>
+    <div class="card">
+        <img alt="bowling" sizes="100%"
+             src="https://www.justforu.co.il/Pictures/%D7%91%D7%90%D7%95%D7%9C%D7%99%D7%A0%D7%92%202.jpg">
+        <div class="price">180 ₪</div>
+        <h1> משחק באולינג 1+1 מתנה</h1>
+        <p>באולינג הינו מקום הבילוי האולטימטיבי לכל המשפחה.
+            אתרי הבאולינג המתקדמים בעיצוב מודרני, מסכי תצוגה ענקים עם אנימציות מרהיבות. מסלולים ממוחשבים וניתנים להתאמה
+            לילדים. מערכת תאורה אולטרה סגול אשר הופכת את חווית המשחק למיוחדת במינה </p>
+        <div class="button-size">
+            <button>להזמנה</button>
+        </div>
+    </div>
+    <div class="card">
+        <img alt="finance"
+             sizes="100%" src="https://images.globes.co.il/images/NewGlobes/big_image_800/2018/shutterstock_232839088800x392.20181011T150823.jpg">
+        <div class="price">150 ₪</div>
+        <h1>יועץ פיננסי</h1>
+        <p>ייעוץ פיננסי המותאם למשפחות בשלבים השונים של חייהם, וביכולתו להביא לתמורות משמעותיות לטובה בכל הקשור להתנהלות
+            הכלכלית, ליציבות, להגדלת הרווחיות ולהצלחה.</p>
+        <div class="button-size">
+            <button>להזמנה</button>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="up-section">
+        <div class="footerlogo">
+            <a class="f-logo" href="pages/homepage/static/templates/homepage.html" id="LemonIconFooter"><img
+                    src="pages/footer/static/css/images/LemonAid-R1-transparent.png"></a>
+        </div>
+
+        <ul>
+            <h1>יצירת קשר</h1>
+            <li><a href="#">+9725086463367</a></li>
+            <li><a href="#">Masho #Street 5</a></li>
+            <li><a href="#">Israel</a></li>
+            <li><a href="#">Blaa</a></li>
+        </ul>
+
+        <ul>
+            <h1> השירותים שלנו </h1>
+            <li><a href="pages/CatalogPage/static/templates/catalogpage.html">שירותים</a></li>
+            <li><a href="#">זכויות</a></li>
+            <li><a href="#">ביטוח לאומי</a></li>
+            <li><a href="#">טפסים</a></li>
+            <li><a href="#">ייעוץ</a></li>
+        </ul>
+
+        <ul>
+            <h1> אנחנו </h1>
+            <li><a href="pages/About-Us/static/templates/About-Us.html">אודותינו</a></li>
+            <li><a href="pages/Our-Team/static/templates/Out-Team.html">הצוות</a></li>
+        </ul>
+    </div>
+
+    <div class="dwn-section">
+        <ul>
+            <h1>תרומות</h1>
+            <li><a href="pages/donationpage/static/templates/donationpage.html">תרמו לנו ועזרו לנו לצמוח</a></li>
+        </ul>
+
+        <ul>
+            <h1>דרושים</h1>
+            <li><a href="#">למשרות</a></li>
+        </ul>
+
+        <div class="social">
+            <h1>חפשו אותנו ברשתות</h1>
+            <div class="social-cons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="search">
+            <h1>Email</h1>
+            <label>
+                <input placeholder="Enter Your Email" type="email">
+            </label>
+        </div>
+    </div>
+    <p class="copyright">Design by group 16, 2020</p>
+</footer>
+
+
+</body>
+</html>

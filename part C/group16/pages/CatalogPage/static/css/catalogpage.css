@@ -1,0 +1,153 @@
+@import "/group16/pages/general.css";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Calibri;
+}
+
+body {
+    background: lightgrey;
+}
+
+.catalog-section {
+    display: flex;
+    margin: auto;
+}
+
+
+.card [alt] {
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+}
+
+.card {
+    position: relative;
+    background: darkseagreen;
+    width: 400px;
+    margin: 100px 50px;
+    text-align: right;
+    font-family: Calibri;
+    border: 5px lightyellow;
+    border-style: double;
+}
+
+
+.card h1, p {
+    margin-right: 10px;
+}
+
+.price {
+    position: absolute;
+    background: lightyellow;
+    width: 100px;
+    height: 30px;
+    font-size: 22px;
+    opacity: 0.8;
+    left: 5px;
+    top: 160px;
+    direction: rtl;
+    text-align: center;
+    font-family: Calibri;
+    border-top-right-radius-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card button {
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: darkgreen;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 40px;
+    left: 0px;
+    border-radius: 100px;
+    border: 2px darkslategrey;
+    border-style: solid;
+    bottom: 3px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.button-size {
+    width: 100%;
+    height: 55px;
+}
+
+.card:hover {
+    box-shadow: 0 0px 20px 1px #25b000;
+    transition: all 0.2s ease-out;
+}
+
+[alt] {
+    transition: transform 0.5s;
+}
+
+[alt]:hover {
+    transform: scale(1.02);
+}
+
+[name="search2"] {
+    background: white;
+    color: black;
+    position: absolute;
+    right: 50px;
+    bottom: 40px;
+    width: 200px;
+    direction: rtl;
+    border-radius: 3px;
+    font-size: 25px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    font-family: Calibri, ariel;
+}
+
+/* When the input field gets focus, change its width to 100% */
+[name="search2"]:focus {
+    width: 90%;
+}
+
+.search-block {
+    direction: rtl;
+    text-align: center;
+    position: relative;
+    background: darkseagreen;
+    width: 100%;
+    height: 300px;
+    background-image: url("https://i.pinimg.com/originals/9e/93/93/9e93934c4d582ad1cc486ddb01f2d8fb.jpg");
+    background-blend-mode: soft-light;
+    user-select: none;
+}
+
+.search-block h1 {
+    letter-spacing: 2px;
+    font-style: italic;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: Calibri;
+}
+
+.search-block p {
+    font-size: 25px;
+    font-family: Calibri;
+}
+
+input {
+    text-align: right;
+}
+
+mark {
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: lightgoldenrodyellow;
+    color: #064906;
+}

@@ -1,0 +1,156 @@
+
+body {
+   margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    background-color: #353745;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerlogo img {
+    float: right;
+    width: 420px;
+    height: auto;
+    margin: -95px;
+}
+
+#LemonIcon {
+    background: transparent;
+}
+
+.up-section ul, .dwn-section ul {
+    font-family: calibri;
+    margin: 0px;
+    padding: 0px 70px;
+    text-align: right;
+}
+
+.up-section h1, .dwn-section h1 {
+    color: #9697a0;
+    font-size: 20px;
+    font-family: Calibri;
+    text-align: right;
+}
+
+.up-section ul li a, .dwn-section ul li a {
+    font-size: 16px;
+    color: #575a70;
+}
+
+.up-section ul p, .dwn-section ul p {
+    font-size: 14px;
+    color: #575a70;
+    line-height: 10px;
+}
+
+.up-section, .dwn-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 0px;
+    margin: 5px;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.up-section, .dwn-section {
+    border-bottom: 1px solid #545562;
+}
+
+.social-cons a {
+    width: 35px;
+    height: 35px;
+    margin: 0px 5px;
+    background-color: #424356;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-cons {
+    display: flex;
+}
+
+.search input {
+    height: 35px;
+    width: 200px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.social-cons i {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.copyright {
+    font-family: Calibri;
+    font-size: 12px;
+    color: #b3b3b3;
+}
+
+.up-section ul li a:hover, .dwn-section ul li a:hover {
+    color: #9697a0;
+}
+
+.social-cons a:hover {
+    background-color: #9a9ff6;
+    transition: all ease 0.5s;
+}
+
+.social-cons a:hover i {
+    color: #424356;
+}
+
+@media (max-width: 1024px) {
+    .search {
+        margin: 20px auto;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .search h1 {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .up-section, .dwn-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .up-section ul h1, .dwn-section ul h1 {
+        font-size: 25px;
+    }
+
+    .up-section ul li, .dwn-section ul li {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .f-logo {
+        border: 1px solid #545562;
+    }
+
+    .search {
+        display: block;
+    }
+}

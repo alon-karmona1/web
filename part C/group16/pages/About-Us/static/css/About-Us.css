@@ -1,0 +1,92 @@
+@import "/group16/pages/general.css";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Calibri;
+}
+
+.service-box {
+    text-align: center;
+    margin: 20px;
+    padding: 35px 15px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease 0s;
+
+}
+
+.service-box:hover {
+    background: #006400;
+}
+
+.service-box:before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: white white rgba(1, 1, 1, 0.2) rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    transition: all 0.3s ease 0s;
+}
+
+.service-box:hover:before {
+    top: 0;
+    right: 0;
+}
+
+.service-box i {
+    display: block;
+    font-size: 60px;
+    color: #2bab0d;
+    margin-bottom: 14px;
+    transition: all 0.3s ease 0s;
+}
+
+.service-box .title {
+    font-size: 28px;
+    font-weight: 900;
+    color: #545454;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 0 16px 0;
+    transition: all 0.3s ease 0s;
+}
+
+.service-box .description {
+    font-size: 23px;
+    color: #545454;
+    line-height: 25px;
+    margin: 0;
+    transition: all 0.3s ease 0s;
+}
+
+.service-box:hover i,
+.service-box:hover .title,
+.service-box:hover .description,
+.service-box:hover .Li {
+    color: white;
+}
+
+.text-center {
+    position: relative;
+    text-align: right;
+    margin: 50px;
+    font-size: 32px;
+}
+
+p {
+    text-align: justify;
+}
+
+.Li {
+    text-align: right;
+    color: #545454;
+    font-size: 23px;
+}
+
+
