@@ -1,4 +1,5 @@
-**Web Development project**<br>
+
+🏆**Web Development project**    🏆<br>
 In this project (part of Web Development course) I've built (with two other friends) a website for an organization called **"LemodAid"**. The construction of the site was divided into three main stages:
 
 **Part A - site Characterization** <br>
