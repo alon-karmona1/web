@@ -1,5 +1,5 @@
  
-In this project I've built (with two other friends) a website for an organization called **"LemodAid"**. The construction of the site was divided into three main stages:
+In this project (part of Web Development course) I've built (with two other friends) a website for an organization called **"LemodAid"**. The construction of the site was divided into three main stages:
 
 **Part A - site Characterization**
 organization Details(what is the organization, what is the business field, ways of activity and target audience), business processes in the company (will characterize 2 business processes and explain each process and how they will be implemented), definition of the company's website environment (theme, competitors' competition and comparison), Characterization Of the site (UI, UX, sketching of Header, Footer, navigation menu, etc.), creating ERD of the databases and tables which would be on the site.
